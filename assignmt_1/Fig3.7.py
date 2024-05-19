@@ -1,4 +1,4 @@
-'''Monte Carlo Statistical Methods Fig3.7'''
+"""Monte Carlo Statistical Methods Fig3.7"""
 import matplotlib.pyplot as plt
 from scipy.stats import t, norm, cauchy  # 导入t分布、正态分布和柯西分布的函数
 import numpy as np
