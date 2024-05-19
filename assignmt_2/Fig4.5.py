@@ -1,4 +1,4 @@
-"""包尔康2021141210003 蒙特卡罗第二次上机模拟作业Fig4.5"""
+"""Monte Carlo Statistical Methods Fig4.5"""
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy.stats as stats
