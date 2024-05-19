@@ -1,6 +1,7 @@
 # Monte-Carlo-Statistical-Methods
 2024 SCU College of Mathematics - Monte Carlo Statistical Methods Assignments
-Textbook: Monte Carlo Statistical Methods (Second Edition) by Christian P. Robert George Casella
+
+**Textbook:** Monte Carlo Statistical Methods (Second Edition) by Christian P. Robert George Casella
 
 ## Assignment 1 : Realize Fig. 3.7 (P99) - Estimators $E_f[X^5 \cdot 1_{X\ge 2.1}]$
 Consider $X \sim \mathcal{T} (\nu ,\theta ,\sigma ^2)$, $f$ is its p.d.f., take $\nu=0$, $\theta=12$, $\sigma=1$.
