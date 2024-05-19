@@ -12,13 +12,24 @@ Consider $X \sim \mathcal{T} (\nu ,\theta ,\sigma ^2)$, take $(\nu ,\theta ,\sig
 
 TheStudent'stdistributioncanbe simulated as a mixture of a normal distribution and of a gamma distribution by Dickey's decomposition (1968),
 
-$$X|y \sim \mathcal{N}(\theta,\sigma^2y) \textit{and} Y^{-1} \sim \mathcal{Ga}(\nu/2, \nu/2) $$.
+$$X|y \sim \mathcal{N}(\theta,\sigma^2y) \quad \mathrm{and} \quad Y^{-1} \sim \mathcal{Ga}(\nu/2, \nu/2) .$$
 
-then the two estimators of $E[exp(-X^2)]$ are given as:
+Then the two estimators of $E[\exp(-X^2)]$ are given as:
 
 $$\delta_1 = \frac{1}{2}\sum_{j=1}^m \exp(-X_j^2) $$
 
 $$\delta_2=  \frac{1}{2}\sum_{j=1}^m E[\exp(-X^2)|Y_j]= \frac{1}{2}\sum_{j=1}^m \frac{1}{\sqrt{2\sigma^2 Y_j+1}} $$
 
-## Assignment 2 : Realize Fig. 5.4 (P166) - A first simulated annealing maximization for $h(x) = [cos(50x) + sin(20x)]^2$
+## Assignment 3 : Realize Fig. 5.4 (P166) - A first simulated annealing maximization for $h(x) = [\cos(50x) + \sin(20x)]^2$
 
+Calculation of the maximum of the function $h(x) = [\cos(50x) + \sin(20x)]^2 , x \in [0,1]$. Show the trajectory of 2500 pairs $(x_{(t)}, h(x_{(t)})$ for each runs.
+
+## Assignment 4 : Realize Fig. 7.1 (P280) - Accept- Reject and Metropolis-Hastings Algorithm estimators to $E_f[X^2]$ and $E_f[X^3]$
+
+Using the algorithm of Example 2.19 (see also Example 3.15), an Accept-Reject method can be derived to generate random variables from the $\mathcal{Ga}(\alpha,\beta)$ distribution using a Gamma $\mathcal{Ga}(\left \lfloor a \right \rfloor  ,b)$ candidate (where laJdenotes the integer part of $a$). When $\beta = 1$, the optimal choice of $b$ is
+$$b = \frac{\left \lfloor a \right \rfloor }{a}.$$
+Here, we take $a=2.43$.
+
+## Assignment 5 : Realize Fig. 8.2 (P325) - 2D slice sampler for truncated normal distribution
+
+First ten steps of the slice sampler for the truncated normal distribution $\mathcal{N}(3,1)$, restricted to the interval $[0, 1]$.
