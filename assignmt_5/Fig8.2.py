@@ -1,4 +1,4 @@
-"""包尔康2021141210003 蒙特卡罗第五次上机模拟作业Fig8.2"""
+"""Monte Carlo Statistical Methods Fig8.2"""
 import numpy as np
 import matplotlib.pyplot as plt
 
