@@ -1,5 +1,4 @@
-"""包尔康2021141210003 蒙特卡罗第四次上机模拟作业Fig7.1"""
-
+"""Monte Carlo Statistical Methods Fig7.1"""
 import numpy as np
 from scipy.stats import gamma
 import matplotlib.pyplot as plt
