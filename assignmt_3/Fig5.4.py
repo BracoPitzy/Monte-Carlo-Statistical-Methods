@@ -1,4 +1,4 @@
-"""包尔康2021141210003 蒙特卡罗第三次上机模拟作业Fig5.4"""
+"""Monte Carlo Statistical Methods Fig5.4"""
 import numpy as np
 import matplotlib.pyplot as plt
 from math import cos, sin, exp, log
